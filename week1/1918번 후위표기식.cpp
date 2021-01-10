@@ -2,6 +2,7 @@
 #include <iostream>
 #include <vector>
 #include <map>
+#include<bits/stdc++.h>  // 거의 대부분의 라이브러리를 
 
 using namespace std;
 
