@@ -1,10 +1,13 @@
-// 문제 원본 https://www.acmicpc.net/problem/1874
+// 문제  https://www.acmicpc.net/problem/1874
 #include <iostream>
 #include <vector>
 
 using namespace std;
 
 int main() {
+	ios::sync_with_stdio(0);
+	cin.tie(0); cout.tie(0);
+	
 	int n = 0;                    // 수열의 길이
 	int sequ[100000] = { 0, };    // 수열을 담을 배열
 	vector<char> result;          // 결과(+, -)를 담을 배열
