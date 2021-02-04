@@ -1,10 +1,13 @@
-// 문제 원본 https://www.acmicpc.net/problem/17298
+// 문제 링크 https://www.acmicpc.net/problem/17298
 #include <iostream>
 #include <vector>
 
 using namespace std;
 
 int main() {
+	ios::sync_with_stdio(0);
+	cin.tie(0); cout.tie(0);
+	
 	int numOfNGE; cin >> numOfNGE;
 	vector<int> notFoundStack(numOfNGE), ans(numOfNGE, -1), inputSeq(numOfNGE);
 
