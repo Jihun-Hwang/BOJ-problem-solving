@@ -5,3 +5,4 @@
 - week3 : BFS advance
 - week4 : DFS
 - week5 : Backtracking
+- week6 : Simulation
