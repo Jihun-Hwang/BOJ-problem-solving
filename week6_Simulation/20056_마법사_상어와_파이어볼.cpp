@@ -58,16 +58,18 @@ void sum_and_split() {
             int sumSpeed = 0;
             int count = board[i][j].size();
             int dirEvenCount = 0;
+            int dirOddCount = 0;
 
             for (int k = 0; k < count; k++) {
                 sumMass += get<2>(board[i][j][k]);
                 sumSpeed += get<3>(board[i][j][k]);
                 if (get<4>(board[i][j][k]) % 2 == 0) dirEvenCount++;
+                else dirOddCount++;
             }
 
             int newMass = sumMass / 5;
             int newSpeed = sumSpeed / count;
-            if (dirEvenCount == count) {
+            if (dirEvenCount == count || dirOddCount == count) {
                 int newDir = 0;
                 for (int a = 0; a < 4; a++) {
                     tmpfireball.push_back({ i, j, newMass, newSpeed, newDir });
