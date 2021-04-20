@@ -6,3 +6,4 @@
 - week4 : DFS
 - week5 : Backtracking
 - week6 : Simulation
+- week7 : Divide And Conquer
