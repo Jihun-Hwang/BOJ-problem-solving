@@ -124,8 +124,8 @@ int main() {
 	int tmp;
 
 	cin >> N >> Q;
-	for (int i = 1; i <= pow(2, N); i++) {
-		for (int j = 1; j <= pow(2, N); j++) {
+	for (int i = 1; i <= sizeBoard; i++) {
+		for (int j = 1; j <= sizeBoard; j++) {
 			cin >> tmp;
 			sum += tmp;
 			board[i][j] = tmp;
