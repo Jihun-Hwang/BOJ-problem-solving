@@ -1,4 +1,6 @@
-# BOJ-problem-solving
+# BOJ & Programmers Practice
+
+>> C++ & Java
 
 - week1 : stack
 - week2 : BFS basic
