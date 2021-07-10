@@ -50,7 +50,7 @@ class Solution {
     private boolean isPrime(int number) {
         if(number == 0 || number == 1) return false;
 
-        for(int div = 2; div<number/2; div++){
+        for(int div = 2; div<=number/2; div++){
             if(number % div == 0) return false;
         }
 
